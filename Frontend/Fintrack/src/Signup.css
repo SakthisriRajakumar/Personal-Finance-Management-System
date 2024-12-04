@@ -1,0 +1,90 @@
+.signup-container{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BEBEBE;
+    font-family:Arial, sans-serif;
+}
+.signup-container p{
+    font-size: 24px;
+    margin: 5px;
+}
+.signup-interior {
+    width:70vw;
+    height:60vh;
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.login-content{
+    width: 50%;
+    background-color: #410200;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.register-content{
+    text-align: center;
+    box-sizing: border-box;
+    width:50%;
+    padding: 5%;
+}
+.register-content h1{
+    margin: 15px;
+    font: 48px bolder ;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.register-content input{
+    width: 80%;
+    padding: 15px;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #D3D3D3;
+    border: none;
+}
+.register-content button{
+    width:80%;
+    background-color: #410200;
+    height:3rem;
+    font-family: sans-serif;
+    font:18px bolder;
+    color: white;
+    border:none;
+    border-radius: 35px;
+}
+.login-content{
+    box-sizing: border-box;
+    color:white;
+    padding:5%;
+    text-align: center;
+}
+.login-content h1{
+    font: 48px bolder ;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.login-content p {
+    padding:20px 15px;
+}
+.login-content button{
+    width:80%;
+    height:3rem;
+    background-color: #410200;
+    font-family: sans-serif;
+    font:18px bolder;
+    color: white;
+    border:2px white solid;
+    border-radius: 35px;
+}
+.register-content .result{
+    font-size: medium;
+    color:red;
+    padding:10px;
+    margin:5px;
+}
